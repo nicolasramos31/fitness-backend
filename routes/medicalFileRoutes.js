@@ -7,7 +7,7 @@ const {
   getAllFiles,
   getFilesByStudent,
   deleteFile,
-} = require("../controllers/medicalFilecontroller");
+} = require("../controllers/medicalFileController");
 
 // ── Alumno: subir y ver sus propios archivos ──
 router.post(  "/",                protect, uploadFile);
