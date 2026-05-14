@@ -1,4 +1,4 @@
-const MedicalFile = require("../models/medicalFile");
+const MedicalFile = require("../models/MedicalFile");
 
 // ── SUBIR ARCHIVO (alumno) ────────────────────────────────────────
 const uploadFile = async (req, res) => {
